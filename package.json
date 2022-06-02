@@ -1,15 +1,26 @@
 {
   "name": "natours",
   "version": "1.0.0",
-  "description": "",
+  "description": "CSS course",
   "main": "index.js",
   "scripts": {
     "sass": "node-sass ./sass/main.scss ./css/style.css",
     "compile:sass": "node-sass ./sass/main.scss ./css/style.css -w"
   },
-  "author": "",
+  "author": "Esdras Dzul",
   "license": "ISC",
   "devDependencies": {
     "node-sass": "^6.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tsunami-dzul/Natours-css.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tsunami-dzul/Natours-css/issues"
+  },
+  "homepage": "https://github.com/tsunami-dzul/Natours-css#readme",
+  "dependencies": {
+    "jquery": "^3.6.0"
   }
 }
